@@ -5,6 +5,11 @@ Point2D::Point2D() // __init__処理
    init();
 }
 
+Point2D::~Point2D()
+{
+   init();
+}
+
 int Point2D::setValues(int a, int b)
 {
    m_x = a, m_y = b;

@@ -8,6 +8,7 @@ class Point2D
 
    public:
       Point2D(); // コンストラクタ
+      virtual ~Point2D(); // デストラクタ
 
       int setValues(int a, int b);
       int getx();
